@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Natalia Stehnii - Front-end developer</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
+
+    <meta property="og:title" content="Nataliia Stehnii - Front-end developer" />
+    <meta property="og:description" content="HTML CSS JavaScript - Bootstrap JQuery - WordPress OpenCart" />
+    <meta property="og:url" content="https://natalia-stegnii.github.io" />
+    <meta property="og:image" content="https://natalia-stegnii.github.io/images/my-photo-square.png" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div>
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

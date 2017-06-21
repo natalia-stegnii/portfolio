@@ -1,0 +1,141 @@
+﻿body {
+    background: #ededed url(./../images/bc.png) repeat;
+    color: #6C7A89;
+    font-family: 'Dosis',Helvetica
+}
+
+a {
+    color: #6C7A89;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #52B3D9;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+.home {
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.portfolio {
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.work {
+    margin: 20px;
+}
+
+.about {
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.contact {
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 40%;
+}
+
+@media screen and (min-height: 480px) {
+    .contact {
+        height: 100%;
+        padding-top: 5%;
+        padding-bottom: 80%;
+    }
+}
+
+
+.logos {
+    margin-top: 30px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logos .logo {
+    display: inline-block;
+}
+
+.cont {
+    display: inline-block;
+}
+
+.name {
+    font-size: 16px;
+}
+
+.line {
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.section-title {
+    position: relative;
+    top: -14px;
+    text-transform: strong;
+    text-transform: uppercase;
+    float: right;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    color: #c9c9c9;
+}
+
+.submenu {
+    width: 100%;
+    height: 80px;
+    background-color: #95A5A6;
+    z-index: 300;
+}
+
+    .submenu.fxd {
+        width: 100%;
+        right: 0px;
+        opacity: 0.8;
+        -webkit-transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .submenu .nav li a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #EEEEEE;
+    }
+
+        .submenu .nav li a:hover, .submenu .nav li a.active {
+            background-color: #ECF0F1;
+            color: #6C7A89;
+        }
+
+@media screen and (min-width: 360px) {
+    .submenu {
+        width: 100%;
+    }
+
+        .submenu .nav li a {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            color: #EEEEEE;
+        }
+}
